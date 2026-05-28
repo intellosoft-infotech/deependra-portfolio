@@ -94,17 +94,17 @@ const HeroSection = () => {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 z-0 h-full w-full object-cover"
       >
-        <source src="/intro.mp4" type="video/mp4" />
+        <source src="/mp_.mp4" type="video/mp4" />
       </video>
 
       {/* Cinematic gradient overlays */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/35 to-black/40" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/45 via-black/15 to-black/20" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/20 via-transparent to-black/40" />
 
       {/* Content layer */}
-      <div className="relative z-10 flex h-full flex-col">
+      <div className="relative z-20 flex h-full flex-col">
         {/* Top bar */}
         <FadeIn delay={0} y={-20} className="relative">
           <div className="flex items-center justify-between px-6 md:px-10 pt-6 md:pt-8">
@@ -131,7 +131,7 @@ const HeroSection = () => {
         </FadeIn>
 
         {/* Middle-left: PORTFOLIO + Name + Subtitle */}
-        <div className="flex flex-1 items-center">
+        {/* <div className="flex flex-1 items-center">
           <div className="w-full max-w-7xl px-6 md:px-10">
             <FadeIn delay={0.3} y={20}>
               <p className="mb-4 text-[10px] sm:text-xs font-medium uppercase tracking-[0.35em] text-white/60">
@@ -142,7 +142,7 @@ const HeroSection = () => {
             <FadeIn delay={0.5} y={40}>
               <h1
                 className="font-black uppercase leading-[0.88] tracking-tight text-white"
-                style={{ fontSize: 'clamp(3rem, 12vw, 10.5rem)' }}
+                style={{ fontSize: 'clamp(2.4rem, 9vw, 8rem)' }}
               >
                 Deependra<br />Patel
               </h1>
@@ -154,7 +154,7 @@ const HeroSection = () => {
               </p>
             </FadeIn>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom bar */}
         <div className="flex items-end justify-between px-6 md:px-10 pb-7 sm:pb-10 md:pb-12">
