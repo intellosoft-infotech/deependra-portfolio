@@ -74,37 +74,6 @@ const PROJECTS: ProjectData[] = [
       'Improves conversion potential by combining support, engagement, and lead generation in one layer.',
     ],
   },
-  {
-    number: '05',
-    category: 'Business · Platform',
-    name: 'DTPS Tech',
-    liveUrl: 'https://dtps.tech/',
-    image: '/dtps-home.png',
-    overview:
-      'A technology platform focused on customer engagement, business growth, and intuitive digital experiences.',
-    details: [
-      'Builds user-centric product journeys that improve interaction quality and retention.',
-      'Supports business growth goals through high-clarity interfaces and strong usability.',
-      'Balances modern UI with practical product flows for faster user adoption.',
-      'Includes Flutter-powered components for polished, cross-platform mobile experiences.',
-      'Enables organizations to present digital capabilities in a scalable and accessible way.',
-    ],
-  },
-  {
-    number: '06',
-    category: 'HRTech · Recruitment',
-    name: 'Talio',
-    liveUrl: 'https://www.talio.in/',
-    image: '/talio-home.png',
-    overview:
-      'A recruitment and talent management platform that streamlines hiring operations from job posting to pipeline management.',
-    details: [
-      'Manages job postings, candidate applications, and hiring workflows in a unified system.',
-      'Improves recruiter efficiency through organized candidate tracking and status movement.',
-      'Supports end-to-end hiring coordination for teams across sourcing, screening, and selection.',
-      'Helps organizations build structured talent pipelines for ongoing workforce planning.',
-    ],
-  },
 ];
 
 interface ProjectCardProps {
@@ -213,7 +182,7 @@ const ProjectsSection = () => {
           className="hero-heading text-center font-black uppercase tracking-tight leading-none mb-16 sm:mb-20 md:mb-28"
           style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
         >
-          Project
+          Projects
         </h2>
       </FadeIn>
 
