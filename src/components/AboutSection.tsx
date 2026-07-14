@@ -3,7 +3,7 @@ import ContactButton from './ContactButton';
 import AnimatedText from './AnimatedText';
 
 const ABOUT_TEXT =
-  "I am a Full Stack Developer with 3 years of experience, including 1.5 years of corporate experience and 1.5 years of freelance work. I specialize in building end-to-end applications with JavaScript, React Native, Node.js, and Next.js, along with Docker, AWS, and GitHub Actions for automation and deployment. I focus on responsive UI, API integrations, and performance optimization to deliver reliable and scalable software solutions.";
+  "I am a Full Stack & Shopify Developer with 3 years of experience, including 1.5 years of corporate experience and 1.5 years of freelance work. I specialize in building end-to-end applications with JavaScript, React Native, Node.js, Next.js, .NET, and Shopify, along with Docker, AWS, and GitHub Actions for automation and deployment. I focus on responsive UI, API integrations, and performance optimization to deliver reliable and scalable software solutions.";
 
 const AboutSection = () => {
   return (
@@ -100,11 +100,11 @@ const AboutSection = () => {
                         {[
                           {
                             label: 'Languages & Library',
-                            items: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'TypeScript', 'GraphQL', 'Python', 'React Native', 'Flutter'],
+                            items: ['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'TypeScript', 'GraphQL', 'Python', 'React Native', 'Flutter', '.NET'],
                           },
                           {
                             label: 'Database & Frameworks',
-                            items: ['Bootstrap', 'Tailwind CSS', 'REST API', 'MongoDB', 'Express JS', 'Node JS'],
+                            items: ['Bootstrap', 'Tailwind CSS', 'REST API', 'MongoDB', 'Express JS', 'Node JS', 'Shopify'],
                           },
                           {
                             label: 'Authentication & Security',
